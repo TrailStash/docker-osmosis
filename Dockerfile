@@ -1,6 +1,6 @@
 FROM openjdk:latest
 
-ARG OSMOSIS_URL="https://github.com/openstreetmap/osmosis/releases/download/0.48.3/osmosis-0.48.3.tgzz"
+ARG OSMOSIS_URL="https://github.com/openstreetmap/osmosis/releases/download/0.48.3/osmosis-0.48.3.tgz"
 ENV OSMOSIS_URL $OSMOSIS_URL
 
 RUN set -x \
